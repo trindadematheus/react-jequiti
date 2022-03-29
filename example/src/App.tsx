@@ -6,7 +6,9 @@ import 'react-jequiti/dist/index.css'
 const App = () => {
   return (
     <>
-      <h1>teste</h1>
+      <div className='page'>
+        <h1>Live example react-jequiti</h1>
+      </div>
 
       <GlobalJequiti intervalTime={2000} />
     </>
