@@ -20,12 +20,28 @@ yarn add react-jequiti
 import JequitiContainer from 'react-jequiti'
 import 'react-jequiti/dist/index.css'
 
-export default function MyApp {
+export default function MyApp() {
     return (
       // ... rest of project
       <JequitiContainer />
     )
 }
+```
+
+## Props
+
+### intervalTime?: number
+You can set the interval time in miliseconds. Default is `10000`
+
+```tsx
+<GlobalJequiti intervalTime={5000} />
+```
+
+### zIndex?: number
+You can set the z-index of the overlay. Default is `9999`
+
+```tsx
+<GlobalJequiti zIndex={500} />
 ```
 
 ## License
